@@ -4,8 +4,9 @@
   "description": "Input a number between 0 and 1, get an rgb value on a smooth gradient from dark to bright",
   "main": "index.js",
   "scripts": {
-    "test": "standard | snazzy && tap --no-cov test.js",
-    "cov": "tap --100 test.js"
+    "test": "standard | snazzy && tap --no-cov test/test.js",
+    "view": "node test/view.js",
+    "cov": "tap --100 test/test.js"
   },
   "repository": {
     "type": "git",
@@ -28,8 +29,13 @@
     "sinusoidal-decimal": "^0.1.0"
   },
   "devDependencies": {
+    "ajv": "^6.5.4",
+    "browserify": "^16.2.2",
+    "opn": "^5.4.0",
+    "pump": "^3.0.0",
     "snazzy": "^8.0.0",
     "standard": "^12.0.1",
+    "stream-template": "0.0.10",
     "tap": "^12.0.1"
   }
 }

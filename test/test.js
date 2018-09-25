@@ -1,8 +1,8 @@
 'use strict'
 
 const { test } = require('tap')
-const flameGradient = require('./index.js')
-const generate = require('./generate.js')
+const flameGradient = require('../index.js')
+const generate = require('../generate.js')
 
 const expected6 = [
   '14, 0, 0',

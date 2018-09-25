@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/AlanSl/flame-gradient/issues"
   },
-  "homepage": "https://github.com/AlanSl/flame-gradient#readme"
+  "homepage": "https://github.com/AlanSl/flame-gradient#readme",
+  "dependencies": {
+    "sinusoidal-decimal": "^0.1.0"
+  },
+  "devDependencies": {
+    "tap": "^12.0.1"
+  }
 }

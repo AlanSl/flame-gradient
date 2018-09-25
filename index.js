@@ -3,8 +3,8 @@
 const sinusoidalDecimal = require('sinusoidal-decimal')
 
 function heatColor (decimal, opacity) {
-  if (typeof decimal !== 'number') throw new Error (`Invalid type ${typeof decimal}, should be decimal number`)
-  if (Number.isNaN(decimal)) throw new Error ('NaN passed to Flame Gradient, should be decimal number')
+  if (typeof decimal !== 'number') throw new Error(`Invalid type ${typeof decimal}, should be decimal number`)
+  if (Number.isNaN(decimal)) throw new Error('NaN passed to Flame Gradient, should be decimal number')
 
   // Colour progresses through almost-black to red to orange to yellow to almost white.
   // Maximises vividness of colours, and also smoothness of increase in apparent

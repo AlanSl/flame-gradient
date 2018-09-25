@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/AlanSl/flame-gradient#readme",
   "dependencies": {
-    "sinusoidal-decimal": "^0.1.0"
+    "sinusoidal-decimal": "^1.0.0"
   },
   "devDependencies": {
     "ajv": "^6.5.4",

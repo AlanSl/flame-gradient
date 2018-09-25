@@ -19,9 +19,9 @@ function heatColor (decimal, opacity) {
   // - green highest so widest range, then red, then blue narrowest.
 
   // Min <0 and max >1 so pure pure black and white are reserved for outside 0-1 range
-  const red = Math.round(255 * sinusoidalDecimal(decimal, -0.1, 0.56))
-  const green = Math.round(255 * sinusoidalDecimal(decimal, 0, 1.08))
-  const blue = Math.round(255 * sinusoidalDecimal(decimal, 0.58, 1.1))
+  const red = Math.round(255 * sinusoidalDecimal(decimal, -0.1, 0.56, true))
+  const green = Math.round(255 * sinusoidalDecimal(decimal, 0, 1.08, true))
+  const blue = Math.round(255 * sinusoidalDecimal(decimal, 0.58, 1.1, true))
 
   const rgb = `${red}, ${green}, ${blue}`
   if (typeof opacity === 'undefined') return `rgb(${rgb})`

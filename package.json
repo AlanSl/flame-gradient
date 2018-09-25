@@ -1,6 +1,6 @@
 {
   "name": "flame-gradient",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Input a number between 0 and 1, get an rgb value on a smooth gradient from dark to bright",
   "main": "index.js",
   "scripts": {

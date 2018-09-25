@@ -1,0 +1,26 @@
+{
+  "name": "flame-gradient",
+  "version": "0.0.1",
+  "description": "Input a number between 0 and 1, get an rgb value on a smooth gradient from dark to bright",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanSl/flame-gradient.git"
+  },
+  "keywords": [
+    "gradient",
+    "color",
+    "visualization",
+    "easing",
+    "gradient"
+  ],
+  "author": "Alan Slater",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlanSl/flame-gradient/issues"
+  },
+  "homepage": "https://github.com/AlanSl/flame-gradient#readme"
+}
